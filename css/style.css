@@ -169,26 +169,37 @@
 .contact {
     display: flex;
     margin-top: 128px;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
     max-width: 1440px;
-    margin-left: 240px;
+    margin: 128px 210px;
 }
 
-.contact-image {
-    margin-top: 86px;
+.contact-image-1{
+    margin: 66px 80px 16px 100px;
 }
-
+.contact-image-2{
+    margin: 66px 10px 16px 100px;
+}
+.contact-image-3{
+    margin: 66px 100px 16px 150px;
+}
 .contact-image-description {
 
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 20px;
 
     font-weight: 600;
     line-height: 35px;
+}
+.cc-1{
+    margin-right: 120px;
+}
+.cc-2{
+margin-right: 80px;
 }
 
 /* Discount-section-style */
